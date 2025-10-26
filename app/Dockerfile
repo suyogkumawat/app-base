@@ -9,7 +9,7 @@ COPY requirements.txt .
 COPY app.py .
 
 # Environment arguments
-ARG AWS_REGION=us-east-1
+ARG AWS_REGION=us-east-2
 ARG AWS_ACCOUNT_ID=832871077374
 ARG CODEARTIFACT_DOMAIN=python-domain
 ARG CODEARTIFACT_REPO=python-libs
