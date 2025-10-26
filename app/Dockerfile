@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-iWORKDIR /app
+WORKDIR /app
 
 # Install AWS CLI to authenticate with CodeArtifact
 RUN apt-get update && apt-get install -y awscli
